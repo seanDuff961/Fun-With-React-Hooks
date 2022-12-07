@@ -7,6 +7,100 @@
   pointer-events: none;
 }
 
+/*my styles*/
+
+body {
+  width: 100%;
+}
+
+.site-logo {
+  padding-left: 1rem;
+}
+
+.duck-wrapper-outer, .counter-wrapper-outer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.counter-wrapper-outer {
+  margin-top: 25px;
+}
+
+.counter-wrapper-inner {
+  padding: 20px;
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.duck-wrapper-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.component-row {
+  margin: 5px;
+}
+
+.component {
+  border: 1px solid rgb(230, 230, 230);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.component-heading {
+  text-align: center;
+}
+
+.duck, .blank-img {
+  width: 100px;
+  height: 100px;
+  margin: 20px; 
+}
+
+.duck-button-styles {
+  background-color: #007AFF;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 35px;
+  margin-top: 40px;
+}
+
+.button-styles {
+  background-color: #007AFF;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 35px;
+}
+
+.change-background-button {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 90px;
+  margin: 20px;
+}
+
+.change-color-button-wrapper {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.counter-button-styles {
+  margin-top: 15px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
