@@ -91,9 +91,9 @@ function App() {
           <div class="change-color-button-wrapper">
             <button className="change-background-button" onClick={changeToRed}>Red</button>
             <button className="change-background-button" onClick={changeToBlue}>Blue</button>
-            <button className="change-background-button" onClick={resetBg}>reset</button>
+            <button className="change-background-button" onClick={resetBg}>Reset</button>
           </div>   
-        </div> :
+          </div> :
           <div className={bgVal == 'red' ? 'red-bg component col-sm' : 'blue-bg component col-sm'}>
           <h2 className="component-heading">Change Background Color</h2>
           <div class="change-color-button-wrapper">
