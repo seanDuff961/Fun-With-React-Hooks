@@ -68,7 +68,9 @@ function App() {
   //useMemo
   const [slowNumber, setSlowNumber] = useState(0);
   const [dark, setDark] = useState(false);
-  const doubleNumber = slowFunction(slowNumber);
+  const doubleNumber = useMemo(() => {
+    return slowFunction(slowNumber)
+  }, [slowNumber]);
   const themeStyles = {
     backgroundColor: dark ? 'black' : 'white',
     color: dark ? 'white' : 'black'
